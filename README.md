@@ -36,15 +36,15 @@ On the host machine:
     cd CFGAN
     export TORCH_HOME=$(pwd) && export PYTHONPATH=$(pwd)
 
-    # Download CelebA-HQ dataset
-    # Download data256x256.zip from https://drive.google.com/drive/folders/11Vz0fqHS2rXDb5pprgTjpD7S2BAJhi1P
+  
+    # Download celeba-hq-dataset.zip from https://drive.google.com/file/d/1p-9I5cFGYG5N3x9TZtbov98joQgJhpsk/view?usp=sharing
     
-    # unzip 
+    # unzip celeba-hq-dataset.zip
 
     
     # Run training
     python3 bin/train.py -cn cfgan-celeba data.batch_size=10
 ### Links
 - Test images from the paper https://disk.yandex.ru/d/xKQJZeVRk5vLlQ
-- The pre-trained model https://disk.yandex.ru/d/EgqaSnLohjuzAg
-- Our training logs are available at https://disk.yandex.ru/d/9Bt1wNSDS4jDkQ
+- The pre-trained model https://drive.google.com/file/d/1bs9b-gOlTMgSmCgBiCVx_wP3BleBdyZu/view?usp=sharing
+- Our training logs are available at https://drive.google.com/drive/folders/1ufg5r5OdYwEphPuCGmJsJ-zx719IROIf?usp=sharing
