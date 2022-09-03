@@ -45,6 +45,6 @@ On the host machine:
     # Run training
     python3 bin/train.py -cn cfgan-celeba data.batch_size=10
 ### Links
-- Test images from the paper https://disk.yandex.ru/d/xKQJZeVRk5vLlQ
+- Test images from the paper https://drive.google.com/drive/folders/1vAB2SoegeUIhwDeol4xRdtjni9en39Tb?usp=sharing
 - The pre-trained model https://drive.google.com/file/d/1bs9b-gOlTMgSmCgBiCVx_wP3BleBdyZu/view?usp=sharing
 - Our training logs are available at https://drive.google.com/drive/folders/1ufg5r5OdYwEphPuCGmJsJ-zx719IROIf?usp=sharing
