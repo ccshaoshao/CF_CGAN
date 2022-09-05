@@ -4,7 +4,7 @@
 # Environment setup
 
 Clone the repo:
-`https://github.com/ccshaoshao/CFGAN.git`
+`https://github.com/ccshaoshao/CF_CGAN.git`
 
 
 Python virtualenv:
