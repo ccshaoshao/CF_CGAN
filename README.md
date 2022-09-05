@@ -14,7 +14,7 @@ Python virtualenv:
     source inpenv/bin/activate
     pip install torch==1.8.0 torchvision==0.9.0
     
-    cd CFGAN
+    cd CF_CGAN
     pip install -r requirements.txt 
     ```
 
@@ -23,17 +23,14 @@ Python virtualenv:
 # Train and Eval
 
 
-```
-cd CFGAN
-export TORCH_HOME=$(pwd) && export PYTHONPATH=$(pwd)
-```
+
 
     
 ## CelebA
 On the host machine:
 
     # Make shure you are in CFGAN folder
-    cd CFGAN
+    cd CF_CGAN
     export TORCH_HOME=$(pwd) && export PYTHONPATH=$(pwd)
 
   
